@@ -21,6 +21,7 @@
 		3E2979061834414100BFAD62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2978E81834414100BFAD62 /* UIKit.framework */; };
 		3E29790E1834414100BFAD62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E29790C1834414100BFAD62 /* InfoPlist.strings */; };
 		3E2979101834414100BFAD62 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E29790F1834414100BFAD62 /* Git_testTests.m */; };
+		3E29791B183442AA00BFAD62 /* DSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E29791A183442AA00BFAD62 /* DSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3E29790B1834414100BFAD62 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		3E29790D1834414100BFAD62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E29790F1834414100BFAD62 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		3E297919183442AA00BFAD62 /* DSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTest.h; sourceTree = "<group>"; };
+		3E29791A183442AA00BFAD62 /* DSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				3E2978F41834414100BFAD62 /* DSAppDelegate.m */,
 				3E2978F61834414100BFAD62 /* Main.storyboard */,
 				3E2978F91834414100BFAD62 /* DSViewController.h */,
+				3E297919183442AA00BFAD62 /* DSTest.h */,
+				3E29791A183442AA00BFAD62 /* DSTest.m */,
 				3E2978FA1834414100BFAD62 /* DSViewController.m */,
 				3E2978FC1834414100BFAD62 /* Images.xcassets */,
 				3E2978EB1834414100BFAD62 /* Supporting Files */,
@@ -252,6 +257,7 @@
 			files = (
 				3E2978F11834414100BFAD62 /* main.m in Sources */,
 				3E2978FB1834414100BFAD62 /* DSViewController.m in Sources */,
+				3E29791B183442AA00BFAD62 /* DSTest.m in Sources */,
 				3E2978F51834414100BFAD62 /* DSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
